@@ -1,0 +1,45 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+form{
+	clear:both;
+}
+a{
+	outline:none;
+}
+a img{
+	border:none;
+}
+
+/*================Style of div = wrapper-responsive start - dektop resolution=============================*/
+
+.wrapper-responsive{
+	width:100%;
+	height: 100vh; /*<-- vh this value cover 100% on the height, this type of value help make better responsive website, however this viewport doesn't work in all website. In this link you can check in which browser viewport work - http://caniuse.com/viewport-units*/
+	background-color:#FE0004;
+}
+
+/*================Style of div = wrapper-responsive end===============================*/
+
+
+
+/*================mobile phone resolution max width 320px style start=====================================*/
+
+@media screen and (max-width : 320px){/*<--- value you will change for diffrent resolution please below recommend  resolution*/
+	.wrapper-responsive{
+		background-color:#00F5F8;
+	}
+}
+
+/*================mobile phone resolution max width 640px style end=======================================*/
+
+
+/* Recommed resolution
+-320px
+-480px
+-600px
+-768px
+-900px
+-1200px
+*/
